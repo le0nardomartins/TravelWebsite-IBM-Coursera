@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WanderWise | Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-bar">
+        <a class="logo" href="index.html">WanderWise</a>
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Find your next unforgettable trip</h1>
+          <p>
+            WanderWise is your personal travel guide, matching your mood and
+            interests with destinations that feel made for you. Explore curated
+            recommendations, rich visuals, and practical details that make
+            planning easy.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-button" data-filter="all">
+              Browse All Picks
+            </button>
+            <button class="ghost-button" data-filter="beach">
+              Beach Escapes
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="recommendations">
+        <div class="section-heading">
+          <h2>Personalized recommendations</h2>
+          <p>
+            Choose a vibe to tailor the display. Each destination includes a
+            snapshot of the experience, best seasons, and inspiration for your
+            itinerary.
+          </p>
+        </div>
+
+        <div class="filter-buttons">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="beach">Beach</button>
+          <button class="filter-button" data-filter="temple">Temple</button>
+          <button class="filter-button" data-filter="country">Country</button>
+        </div>
+
+        <div class="recommendation-grid">
+          <section class="recommendation-section" data-category="beach">
+            <h3>Beach recommendations</h3>
+            <div class="card-grid">
+              <article class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80"
+                  alt="Turquoise water and a tropical beach at sunrise"
+                />
+                <div class="card-body">
+                  <h4>Maldives Lagoon Escape</h4>
+                  <p>
+                    Crystal-clear lagoons, overwater villas, and sunset cruises
+                    make this a dreamy reset. Best visited from November to
+                    April.
+                  </p>
+                  <span class="tag">Relaxation</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+                  alt="Golden sand beach with waves and palm trees"
+                />
+                <div class="card-body">
+                  <h4>Bahia Coastal Adventure</h4>
+                  <p>
+                    A lively coastline with colorful towns, snorkeling spots,
+                    and Brazilian cuisine. Best visited from September to
+                    February.
+                  </p>
+                  <span class="tag">Adventure</span>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="recommendation-section" data-category="temple">
+            <h3>Temple recommendations</h3>
+            <div class="card-grid">
+              <article class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80"
+                  alt="Historic temple with ornate roof against a blue sky"
+                />
+                <div class="card-body">
+                  <h4>Kyoto Temple Trails</h4>
+                  <p>
+                    Walk through serene gardens and historic shrines while
+                    enjoying tea houses and cherry blossoms in spring.
+                  </p>
+                  <span class="tag">Culture</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1501441858156-e505fb04bfbc?auto=format&fit=crop&w=900&q=80"
+                  alt="Temple complex with spires and lush greenery"
+                />
+                <div class="card-body">
+                  <h4>Siem Reap Heritage</h4>
+                  <p>
+                    Explore Angkor's legendary temples, sunrise tours, and
+                    local markets. Best visited from November to March.
+                  </p>
+                  <span class="tag">History</span>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="recommendation-section" data-category="country">
+            <h3>Country-based recommendations</h3>
+            <div class="card-grid">
+              <article class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80"
+                  alt="Colorful boats on a canal in Amsterdam"
+                />
+                <div class="card-body">
+                  <h4>The Netherlands: Canal Charm</h4>
+                  <p>
+                    Cycle-friendly cities, tulip fields, and cozy cafes make it
+                    perfect for a spring getaway.
+                  </p>
+                  <span class="tag">Urban</span>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80"
+                  alt="Mountain landscape with a lake and pine trees"
+                />
+                <div class="card-body">
+                  <h4>New Zealand: Wild & Scenic</h4>
+                  <p>
+                    Think alpine lakes, hiking trails, and cinematic landscapes.
+                    Ideal for adventure lovers year-round.
+                  </p>
+                  <span class="tag">Nature</span>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Plan smarter, travel farther with WanderWise.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
